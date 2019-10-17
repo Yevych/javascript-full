@@ -7,7 +7,7 @@ let appData = {
   optionalExpenses: {},
   income: [],
   timeData: time,
-  saving: false
+  savings: false
 };
 
 let a1 = prompt('Введите обязательную статью расходов в этом месяце', ''),

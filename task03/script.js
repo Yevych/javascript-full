@@ -7,7 +7,7 @@ let appData = {
   optionalExpenses: {},
   income: [],
   timeData: time,
-  saving: false
+  savings: false
 };
 
 for (let i = 0; i < 2; i++) {
