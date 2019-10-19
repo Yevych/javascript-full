@@ -62,7 +62,7 @@ let appData = {
     }
   },
   chooseIncome: function () {
-    let items = prompt('Что принесет дополнительный доход? (Перечислете через запятую)', '');
+    let items = prompt('Что принесет дополнительный доход? (Перечислите через запятую)', '');
 
     if ((typeof (items)) === 'string' && (typeof (items)) != null &&
       items != '' && items.length < 50) {
